@@ -12,7 +12,7 @@ struct sinhvien{
 };
 typedef struct sinhvien sv; // phai co typedef struct den khai bao
 int main(){
-  sv a;
+  sv a; // yeu cau phai co
   scanf("%s",&a.ma); //a.ma ten.ma , dau "." dung de truy cap dia chi den ma, sv, gpa .....
   getchar(); //bo dau enter
   gets(a.ten);
