@@ -13,8 +13,8 @@ struct sinhvien{
 typedef struct sinhvien sv;
 int main(){
   sv a;
-  scanf("%s",&a.ma);
-  getchar();
+  scanf("%s",&a.ma); //a.ma ten.ma , dau "." dung de truy cap dia chi den ma, sv, gpa .....
+  getchar(); //bo dau enter
   gets(a.ten);
   scanf("%lf%s",&a.gpa,&a.lop);
   printf("%s %s %.2lf %s\n",a.ten,a.ma,a.gpa,a.lop);
