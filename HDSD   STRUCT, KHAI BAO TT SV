@@ -10,7 +10,7 @@ struct sinhvien{
   double gpa;
   char lop[20];
 };
-typedef struct sinhvien sv;
+typedef struct sinhvien sv; // phai co typedef struct den khai bao
 int main(){
   sv a;
   scanf("%s",&a.ma); //a.ma ten.ma , dau "." dung de truy cap dia chi den ma, sv, gpa .....
