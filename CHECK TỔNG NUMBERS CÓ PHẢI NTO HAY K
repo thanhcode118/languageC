@@ -20,7 +20,7 @@ bool nt(int n){
    return 1;
 }
 int main(){ 
-   int n=100;
+   int n=100; // NHAP SO CAN KTRA 
    if (nt(tong(n))){
  cout<<"YES";
    }
